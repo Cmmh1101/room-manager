@@ -6,7 +6,7 @@ function Header() {
       <div className="header_bg">
         <div className="container">
           <div className="row">
-            <div className="col-12 text-center py-3">
+            <div className="col-12 text-center text-md-left py-3">
               <NavbarBrand href="/" className="logo">
                 Room Manager
               </NavbarBrand>

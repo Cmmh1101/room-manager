@@ -1,0 +1,9 @@
+.rooms {
+  max-width: 800px;
+}
+
+.room_cards {
+  height: auto;
+
+  text-align: center;
+}

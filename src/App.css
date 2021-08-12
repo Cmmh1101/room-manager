@@ -11,7 +11,7 @@
   --dark-blue_color: #3162c1;
   --light-grey_color: #939090;
   --dark_color: #000;
-  --transition: all 0.3s ease-in-out;
+  --transition: all 0.8s ease-in-out;
 }
 
 .main_bg {
@@ -20,24 +20,79 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+.home_bg {
+  background-color: var(--light-blue_color);
+  min-height: 100vh;
+  height: auto;
+  max-height: auto !important;
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  position: relative;
 }
 
 .header_bg {
   background-color: var(--orange_color);
   position: absolute;
   width: 100%;
+  z-index: 5;
 }
 
 .logo {
   color: var(--dark-blue_color);
 }
+
 .logo:hover {
   color: var(--light_color);
   transition: var(--transition);
+}
+
+.user_image {
+  width: 50px;
+  position: absolute;
+  z-index: 10;
+  top: 10px;
+  right: 5%;
+}
+.user_image img {
+  width: 100%;
 }
 
 /* Form */
 
 .buttons {
   background-color: var(--orange_color) !important;
+}
+
+/* Home */
+
+.title {
+  margin-top: 100px;
+}
+/* Room cards */
+
+/* Students */
+.grades_btns {
+  background-color: var(--light_color) !important;
+  color: var(--dark-blue_color) !important;
+}
+.grades_btns:hover {
+  background-color: var(--orange_color) !important;
+}
+.grades_btns:active {
+  background-color: var(--orange_color) !important;
+}
+
+.students_display {
+  background-color: var(--light_color);
+  height: 500px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.students_display--list {
+  height: 100%;
+  overflow: auto;
 }
