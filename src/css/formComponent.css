@@ -1,0 +1,8 @@
+/* mx-auto d-flex justify-content-center flex-column text-center */
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}

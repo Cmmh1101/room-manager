@@ -3,6 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 import Main from "./components/MainComponent";
 import "./App.css";
 import "./css/roomComponent.css";
+import "./css/displayStudent.css";
 
 class App extends Component {
   render() {

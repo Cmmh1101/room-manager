@@ -1,0 +1,11 @@
+.student-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.student-in-room {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

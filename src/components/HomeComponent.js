@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-
 import Students from "./StudentsComponent";
 import UserAvatar from "./UserAvatar";
 import Rooms from "./RoomComponent";
