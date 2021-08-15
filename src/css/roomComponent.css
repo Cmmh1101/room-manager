@@ -1,9 +1,17 @@
-.rooms {
-  max-width: 800px;
+:root {
+  --orange_color: #ffac5f;
+  --light_color: #f1f1f1;
+  --light-blue_color: #6fafea;
+  --blue_color: #3162c1;
+  --dark_blue_color: #102346;
+  --light-grey_color: #939090;
+  --dark_color: #000;
+  --transition: all 0.8s ease-in-out;
 }
 
-.room_cards {
+.room_box {
+  width: 400px;
   height: auto;
-
+  background-color: var(--light_color) !important;
   text-align: center;
 }

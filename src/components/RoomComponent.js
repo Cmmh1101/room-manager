@@ -8,21 +8,34 @@ function Rooms() {
   const [students, setStudents] = useState([]);
   return (
     <>
-      <div className="col-12 col-md-5 ">
-        <Card className="col room_cards m-2">
-          <CardHeader>Girls 1</CardHeader>
+      <div className="room_box m-2">
+        <h4 className="room_title">Girls 1</h4>
 
-          <CardBody>
-            <StudentForm
-              inputText={inputText}
-              students={students}
-              setStudents={setStudents}
-              setInputText={setInputText}
-            />
-            <DisplayStudent setStudents={setStudents} students={students} />
-          </CardBody>
-        </Card>
-        {/* <Card className="col room_cards m-2">
+        <div>
+          <StudentForm
+            inputText={inputText}
+            students={students}
+            setStudents={setStudents}
+            setInputText={setInputText}
+          />
+          <DisplayStudent setStudents={setStudents} students={students} />
+        </div>
+      </div>
+      <div className="room_box m-2">
+        <h4 className="room_title">Boys 1</h4>
+
+        <div>
+          <StudentForm
+            inputText={inputText}
+            students={students}
+            setStudents={setStudents}
+            setInputText={setInputText}
+          />
+          <DisplayStudent setStudents={setStudents} students={students} />
+        </div>
+      </div>
+
+      {/* <Card className="col room_cards m-2">
             <CardHeader>{girlsName} 2</CardHeader>
 
             <CardBody></CardBody>
@@ -32,7 +45,7 @@ function Rooms() {
 
             <CardBody></CardBody>
           </Card> */}
-      </div>
+
       {/* <div className="col-12 col-md-5">
           <Card className="col room_cards m-2">
             <CardHeader>{boysName} 1</CardHeader>

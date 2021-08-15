@@ -15,14 +15,15 @@ class Home extends Component {
                 <UserAvatar />
               </div>
             </div>
-            <div className="row">
-              <div className="col text-center title">
+            <div className="row m-0">
+              <div className="col-12 title">
                 <h1>Manage Rooms</h1>
               </div>
-              <div className="col-12 d-flex flex-wrap justify-content-center px-0">
+              <div className="col room_display">
                 <Rooms />
               </div>
             </div>
+            <div className="row"></div>
           </div>
         </div>
       </>

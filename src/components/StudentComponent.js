@@ -4,8 +4,7 @@ import { Button } from "reactstrap";
 const Student = ({ text, student, students, setStudents }) => {
   // event listeners
   const removeHandler = () => {
-    console.log(student);
-    setStudents(students.filter((student) => student.id !== student.id));
+    setStudents(students.filter((el) => el.id !== student.id));
   };
 
   return (

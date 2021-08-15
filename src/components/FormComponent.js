@@ -9,7 +9,7 @@ const StudentForm = ({ inputText, setInputText, students, setStudents }) => {
   };
   const submitStudentHandler = (e) => {
     e.preventDefault();
-    setStudents([...students, { text: inputText }]);
+    setStudents([...students, { text: inputText, id: Math.random() * 1000 }]);
     setInputText("");
   };
 
