@@ -5,4 +5,9 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  margin: 0 auto;
+}
+
+.add_btn {
+  background-color: green !important;
 }

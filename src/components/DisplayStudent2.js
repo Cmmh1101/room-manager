@@ -1,7 +1,7 @@
 import React from "react";
 import Student from "./StudentComponent";
 
-const DisplayStudent = ({ students, setStudents }) => {
+const DisplayStudent2 = ({ students, setStudents }) => {
   return (
     <div className="student-display">
       {students.map((student) => (
@@ -17,4 +17,4 @@ const DisplayStudent = ({ students, setStudents }) => {
   );
 };
 
-export default DisplayStudent;
+export default DisplayStudent2;

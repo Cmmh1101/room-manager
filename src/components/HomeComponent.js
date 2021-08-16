@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import Students from "./StudentsComponent";
+
 import UserAvatar from "./UserAvatar";
 import Rooms from "./RoomComponent";
+import Room2 from "./Room2Component";
 
 class Home extends Component {
   render() {
@@ -19,11 +19,11 @@ class Home extends Component {
               <div className="col-12 title">
                 <h1>Manage Rooms</h1>
               </div>
-              <div className="col room_display">
+              <div className="col-12 room_display">
                 <Rooms />
+                <Room2 />
               </div>
             </div>
-            <div className="row"></div>
           </div>
         </div>
       </>

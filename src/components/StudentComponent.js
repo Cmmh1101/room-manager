@@ -8,9 +8,11 @@ const Student = ({ text, student, students, setStudents }) => {
   };
 
   return (
-    <div>
-      <li> {text} </li>
-      <Button onClick={removeHandler}>X</Button>
+    <div className="student_in_room">
+      <p> {text} </p>
+      <Button className="remove-btn" onClick={removeHandler}>
+        X
+      </Button>
     </div>
   );
 };

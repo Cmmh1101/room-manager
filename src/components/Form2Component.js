@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Input, Form } from "reactstrap";
 
-const StudentForm = ({ inputText, setInputText, students, setStudents }) => {
+const StudentForm2 = ({ inputText, setInputText, students, setStudents }) => {
   const inputTextHandler = (e) => {
     console.log(e.target.value);
     setInputText(e.target.value);
@@ -16,7 +16,7 @@ const StudentForm = ({ inputText, setInputText, students, setStudents }) => {
   return (
     <>
       <div className="col-12 col-md-10 form-container">
-        <Form className="col  d-flex justify-content-center mb-3">
+        <Form className="col d-flex justify-content-center mb-3 ">
           <Input
             value={inputText}
             onChange={inputTextHandler}
@@ -35,4 +35,4 @@ const StudentForm = ({ inputText, setInputText, students, setStudents }) => {
   );
 };
 
-export default StudentForm;
+export default StudentForm2;
