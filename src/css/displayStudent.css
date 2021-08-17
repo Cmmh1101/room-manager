@@ -14,6 +14,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: wrap;
 }
 
 .student_in_room {
@@ -21,7 +22,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  margin: 0 20px;
+  margin: 10px 20px;
   margin-bottom: 0;
   background-color: var(--dark_blue_color);
   border-radius: 30px;
