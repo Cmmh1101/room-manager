@@ -10,7 +10,7 @@ class UserAvatar extends Component {
     return (
       <div className="user_image d-flex align-items-center">
         <img src="../images/userphoto.png" alt="user" className="user" />
-        <Link href="#" className="ml-2">
+        <Link href="#" className="ml-2 d-none d-md-block">
           LogOut
         </Link>
       </div>

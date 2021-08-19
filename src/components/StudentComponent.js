@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "reactstrap";
+import Timer from "./TimerComponent";
 
 const Student = ({ text, student, students, setStudents }) => {
   // event listeners
@@ -10,6 +11,7 @@ const Student = ({ text, student, students, setStudents }) => {
   return (
     <div className="student_in_room">
       <p> {text} </p>
+      <Timer />
       <Button className="remove-btn" onClick={removeHandler}>
         X
       </Button>
