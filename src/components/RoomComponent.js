@@ -51,54 +51,6 @@ function Rooms() {
           <DisplayStudent setStudents={setStudents} students={students} />
         </div>
       </div>
-
-      {/* <Card className="col room_cards m-2">
-            <CardHeader>{girlsName} 2</CardHeader>
-
-            <CardBody></CardBody>
-          </Card>
-          <Card className="col room_cards m-2">
-            <CardHeader>{girlsName} E</CardHeader>
-
-            <CardBody></CardBody>
-          </Card> */}
-
-      {/* <div className="col-12 col-md-5">
-          <Card className="col room_cards m-2">
-            <CardHeader>{boysName} 1</CardHeader>
-
-            <CardBody></CardBody>
-          </Card>
-          <Card className="col room_cards m-2">
-            <CardHeader>{boysName} 2</CardHeader>
-
-            <CardBody></CardBody>
-          </Card>
-          <Card className="col room_cards m-2">
-            <CardHeader>{boysName} E</CardHeader>
-
-            <CardBody></CardBody>
-          </Card>
-        </div>
-        <div className="col-12 col-md-5">
-          <Card className="col room_cards m-2">
-            <CardHeader>{mainOfficeName}</CardHeader>
-
-            <CardBody></CardBody>
-          </Card>
-          <Card className="col room_cards m-2">
-            <CardHeader>{nurseName}</CardHeader>
-
-            <CardBody></CardBody>
-          </Card>
-        </div>
-        <div className="col-12 col-md-5">
-          <Card className="col room_cards m-2">
-            <CardHeader>{socialName}</CardHeader>
-
-            <CardBody></CardBody>
-          </Card>
-        </div> */}
     </>
   );
 }
