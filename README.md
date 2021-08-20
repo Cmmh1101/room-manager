@@ -37,6 +37,8 @@ Carla Montano
   - Continuous updates as of Aug. 20/21 
 
 
+![screencapture-room-management-netlify-app-home-2021-08-20-19_38_08](https://user-images.githubusercontent.com/56605042/130303075-de1495ac-b150-4f94-b355-536611d15ad9.png)
+![screencapture-room-management-netlify-app-home-2021-08-20-19_43_24](https://user-images.githubusercontent.com/56605042/130303076-67d6774f-9f4d-4d8f-97c5-c8cac062c5c1.png)
 
 
 
