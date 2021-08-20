@@ -1,0 +1,28 @@
+.header_bg {
+  background-color: var(--orange_color);
+  position: absolute;
+  width: 100%;
+  z-index: 5;
+}
+
+.logo {
+  color: var(--dark-blue_color);
+  font-family: "Monoton", cursive;
+  font-size: 1.8rem;
+}
+
+.logo:hover {
+  color: var(--light_color);
+  transition: var(--transition);
+}
+
+.user_image {
+  width: 55px;
+  position: absolute;
+  z-index: 10;
+  top: 14px;
+  right: 5%;
+}
+.user_image img {
+  width: 100%;
+}

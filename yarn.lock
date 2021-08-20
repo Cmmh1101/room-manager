@@ -13129,6 +13129,11 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
+typeface-monoton@^1.1.13:
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/typeface-monoton/-/typeface-monoton-1.1.13.tgz#8bc16dcdda08a0cfe023935bd8d74f62bf8db160"
+  integrity sha512-dg1R5f/J64yazC5wqgBD1R5PTSrdUnW2TFbRUNWQKrR2ibTApxPqiHMl8zq+ATkDY0YaKPZGPxGIQ4xAW4JMuA==
+
 typeface-poppins@^1.1.13:
   version "1.1.13"
   resolved "https://registry.yarnpkg.com/typeface-poppins/-/typeface-poppins-1.1.13.tgz#a80b6f14a2a70624eb2eb833fe5559507a8f5651"

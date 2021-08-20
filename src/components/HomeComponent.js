@@ -15,12 +15,7 @@ class Home extends Component {
       <>
         <div className="home_bg">
           <div className="container">
-            <div className="row ml-0">
-              <div className="col">
-                <UserAvatar />
-              </div>
-            </div>
-            <div className="row m-0">
+            <div className="row m-0 mt-md-5">
               <div className="col-12 title">
                 <h1>Manage Rooms</h1>
               </div>

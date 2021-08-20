@@ -4,4 +4,5 @@
   background-color: var(--light_color) !important;
   text-align: center;
   padding: 10px;
+  border-radius: 5px;
 }

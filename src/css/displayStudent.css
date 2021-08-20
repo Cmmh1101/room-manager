@@ -15,6 +15,7 @@
   margin-bottom: 0;
   background-color: var(--dark_blue_color);
   border-radius: 30px;
+  text-transform: capitalize;
 }
 
 .student_in_room p {

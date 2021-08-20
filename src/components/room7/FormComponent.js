@@ -15,22 +15,20 @@ const StudentForm = ({ inputText, setInputText, students, setStudents }) => {
 
   return (
     <>
-      <div className="col-12 form-container">
-        <Form className="col d-flex justify-content-center mb-3 ">
-          <Input
-            value={inputText}
-            onChange={inputTextHandler}
-            placeholder="Student Name"
-          />
-          <Button
-            className="add_btn"
-            onClick={submitStudentHandler}
-            type="submit"
-          >
-            +
-          </Button>
-        </Form>
-      </div>
+      <Form className="col  d-flex justify-content-center mb-3">
+        <Input
+          value={inputText}
+          onChange={inputTextHandler}
+          placeholder="Student Name"
+        />
+        <Button
+          className="add_btn"
+          onClick={submitStudentHandler}
+          type="submit"
+        >
+          +
+        </Button>
+      </Form>
     </>
   );
 };

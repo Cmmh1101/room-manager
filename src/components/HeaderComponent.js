@@ -1,5 +1,6 @@
 import React from "react";
 import { NavbarBrand } from "reactstrap";
+import UserAvatar from "./UserAvatar";
 function Header() {
   return (
     <React.Fragment>
@@ -10,6 +11,7 @@ function Header() {
               <NavbarBrand href="/" className="logo">
                 Room Manager
               </NavbarBrand>
+              <UserAvatar />
             </div>
           </div>
         </div>

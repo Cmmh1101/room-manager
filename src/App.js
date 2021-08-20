@@ -6,6 +6,7 @@ import "./css/roomComponent.css";
 import "./css/displayStudent.css";
 import "./css/formComponent.css";
 import "./css/timerComponent.css";
+import "./css/headerComponent.css";
 
 class App extends Component {
   render() {
