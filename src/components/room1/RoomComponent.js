@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import StudentForm from "./FormComponent";
 import DisplayStudent from "./DisplayStudent";
 
@@ -8,33 +8,33 @@ function Rooms() {
   const [students, setStudents] = useState([]);
 
   // getting localStudents (once)
-  // useEffect(() => {
-  //   getLocalStudents();
-  // }, []);
-  // useEffect(() => {
-  //   saveLocalStudents();
-  // }, [students]);
+  useEffect(() => {
+    getLocalStudents();
+  }, []);
+  useEffect(() => {
+    saveLocalStudents();
+  }, [students]);
 
   // Saving to local storage
 
-  // const saveLocalStudents = () => {
-  //   if (localStorage.setItem("students") === null) {
-  //     localStorage.setItem("students", JSON.stringify([]));
-  //   } else {
-  //     localStorage.setItem("students", JSON.stringify(students));
-  //   }
-  // };
+  const saveLocalStudents = () => {
+    if (localStorage.setItem("students") === null) {
+      localStorage.setItem("students", JSON.stringify([]));
+    } else {
+      localStorage.setItem("students", JSON.stringify(students));
+    }
+  };
 
-  // const getLocalStudents = () => {
-  //   if (localStorage.getItem("students") === null) {
-  //     localStorage.setItem("students", JSON.stringify([]));
-  //   } else {
-  //     let studentsLocal = JSON.parse(localStorage.getItem("todos"));
+  const getLocalStudents = () => {
+    if (localStorage.getItem("students") === null) {
+      localStorage.setItem("students", JSON.stringify([]));
+    } else {
+      let studentsLocal = JSON.parse(localStorage.getItem("todos"));
 
-  //     console.log(studentsLocal);
-  //     setStudents(studentsLocal);
-  //   }
-  // };
+      console.log(studentsLocal);
+      setStudents(studentsLocal);
+    }
+  };
 
   return (
     <>

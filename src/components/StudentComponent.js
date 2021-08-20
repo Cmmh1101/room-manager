@@ -16,7 +16,7 @@ const Student = ({ text, student, students, setStudents }) => {
         enterTransform: "translateX(0px)",
         exitTransform: "translateX(-100px)",
       }}
-      duration={800}
+      duration={500}
     >
       <div className="student_in_room">
         <p> {text} </p>
