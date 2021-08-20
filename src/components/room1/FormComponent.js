@@ -15,7 +15,7 @@ const StudentForm = ({ inputText, setInputText, students, setStudents }) => {
 
   return (
     <>
-      <div className="col-12 col-md-10 form-container">
+      <div className="col-12 form-container">
         <Form className="col  d-flex justify-content-center mb-3">
           <Input
             value={inputText}

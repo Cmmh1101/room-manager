@@ -1,5 +1,5 @@
 import React from "react";
-import Student from "./StudentComponent";
+import Student from "../StudentComponent";
 
 const DisplayStudent = ({ students, setStudents }) => {
   return (

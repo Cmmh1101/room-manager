@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import StudentForm from "./FormComponent";
 import DisplayStudent from "./DisplayStudent";
 
@@ -39,7 +39,7 @@ function Rooms() {
   return (
     <>
       <div className="room_box m-2">
-        <h4 className="room_title">Girls 1</h4>
+        <h4 className="room_title">RR Girls 1</h4>
 
         <div>
           <StudentForm
