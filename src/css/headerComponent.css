@@ -6,12 +6,12 @@
 }
 
 .logo {
-  color: var(--light_color);
   color: var(--dark_blue_color);
   font-family: "Monoton", cursive;
   font-size: 1.8rem;
   letter-spacing: 1.3px;
   transition: var(--transition);
+  margin-right: 0 !important;
 }
 
 .logo:hover {

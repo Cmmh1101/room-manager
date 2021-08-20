@@ -8,7 +8,7 @@ function Header() {
         <div className="container">
           <div className="row">
             <div className="col-12 text-center text-md-left py-3">
-              <NavbarBrand href="/" className="logo">
+              <NavbarBrand href="/" className="logo m-0">
                 Room Manager
               </NavbarBrand>
               <UserAvatar />
