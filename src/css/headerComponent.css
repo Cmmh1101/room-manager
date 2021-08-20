@@ -6,14 +6,17 @@
 }
 
 .logo {
-  color: var(--dark-blue_color);
+  color: var(--light_color);
+  color: var(--dark_blue_color);
   font-family: "Monoton", cursive;
   font-size: 1.8rem;
+  letter-spacing: 1.3px;
+  transition: var(--transition);
 }
 
 .logo:hover {
+  letter-spacing: 1.5px;
   color: var(--light_color);
-  transition: var(--transition);
 }
 
 .user_image {
@@ -25,4 +28,12 @@
 }
 .user_image img {
   width: 100%;
+}
+
+@media (max-width: 500px) {
+  .logo {
+    font-size: 1.5rem;
+    letter-spacing: 1.3px;
+    transition: var(--transition);
+  }
 }

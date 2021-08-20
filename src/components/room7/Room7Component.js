@@ -9,7 +9,10 @@ function Room7() {
   return (
     <>
       <div className="room_box m-2">
-        <h4 className="room_title">Main Office</h4>
+        <h4 className="room_title">
+          <i className="fa fa-folder-open room-icon" />
+          Main Office
+        </h4>
 
         <div>
           <StudentForm

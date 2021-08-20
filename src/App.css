@@ -62,4 +62,5 @@ span {
   justify-content: center;
   align-items: center;
   flex-flow: wrap;
+  padding: 0;
 }

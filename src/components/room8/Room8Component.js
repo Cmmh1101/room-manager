@@ -9,7 +9,10 @@ function Room8() {
   return (
     <>
       <div className="room_box m-2">
-        <h4 className="room_title">Nurse</h4>
+        <h4 className="room_title">
+          <i className="fa fa-user-md room-icon" />
+          Nurse
+        </h4>
 
         <div>
           <StudentForm

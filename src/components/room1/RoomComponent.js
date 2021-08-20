@@ -39,7 +39,10 @@ function Rooms() {
   return (
     <>
       <div className="room_box m-2">
-        <h4 className="room_title">RR Girls 1</h4>
+        <h4 className="room_title">
+          <i className="fa fa-female room-icon" />
+          Girls 1
+        </h4>
 
         <div>
           <StudentForm

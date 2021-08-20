@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import UserAvatar from "./UserAvatar";
 import Rooms from "./room1/RoomComponent";
 import Room2 from "./room2/Room2Component";
 import Room3 from "./room3/Room3Component";
