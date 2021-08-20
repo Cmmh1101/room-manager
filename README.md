@@ -2,7 +2,7 @@
 
 A web app created to manage the flow of students that move to and from common areas in school settings to assist staff and students with the control of Covid-19 Regulations. 
 
-## Created by: 
+## Developer: 
 
 Carla Montano
   - LinkedIn: https://www.linkedin.com/in/carla-montano/ 
