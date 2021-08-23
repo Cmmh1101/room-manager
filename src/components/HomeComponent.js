@@ -18,7 +18,7 @@ class Home extends Component {
               <div className="col-12 title">
                 <h1>Manage Rooms</h1>
               </div>
-              <div className="col-12 col-lg-8 room_display">
+              <div className="col-12 col-lg-10 mx-auto room_display">
                 <Rooms />
                 <Room2 />
                 <Room3 />
