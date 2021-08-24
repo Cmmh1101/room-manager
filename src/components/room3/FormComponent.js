@@ -15,7 +15,7 @@ const StudentForm = ({ inputText, setInputText, students, setStudents }) => {
 
   return (
     <>
-      <Form className="col  d-flex justify-content-center mb-3">
+      <Form className="col  d-flex justify-content-center">
         <Input
           value={inputText}
           onChange={inputTextHandler}

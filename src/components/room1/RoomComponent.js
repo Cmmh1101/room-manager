@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import StudentForm from "./FormComponent";
 import DisplayStudent from "./DisplayStudent";
 
@@ -14,22 +14,29 @@ function Rooms() {
   // useEffect(() => {
   //   saveLocalStudents();
   // }, [students]);
+  // ----------------------------------
+  // make a variable of your localstorage
+  // const newStudents = localStorage.getItem("students");
 
+  // if (!newStudents) {
+  //   // this checks to see if it's null/falsy
+  //   return; // exit the function
+  // }
+
+  //you don't need to set the item to an empty array because your state is defaulted to []
+
+  // -----------------------------------
   // Saving to local storage
 
   // const saveLocalStudents = () => {
-  //   if (localStorage.setItem("students") === null) {
-  //     localStorage.setItem("students", JSON.stringify([]));
-  //   } else {
-  //     localStorage.setItem("students", JSON.stringify(students));
-  //   }
+  //   localStorage.setItem("students", students);
   // };
 
   // const getLocalStudents = () => {
   //   if (localStorage.getItem("students") === null) {
   //     localStorage.setItem("students", JSON.stringify([]));
   //   } else {
-  //     let studentsLocal = JSON.parse(localStorage.getItem("todos"));
+  //     let studentsLocal = JSON.parse(localStorage.getItem("students"));
 
   //     console.log(studentsLocal);
   //     setStudents(studentsLocal);
