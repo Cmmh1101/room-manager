@@ -18,7 +18,7 @@
 @media (max-width: 767px) {
   .room_box {
     width: 45%;
-    height: auto;
+
     background-color: var(--light_color) !important;
     text-align: center;
     padding: 10px;
@@ -28,7 +28,7 @@
 @media (max-width: 500px) {
   .room_box {
     width: 100%;
-    height: auto;
+
     background-color: var(--light_color) !important;
     text-align: center;
     padding: 10px;

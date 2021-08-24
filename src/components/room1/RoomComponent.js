@@ -7,41 +7,16 @@ function Rooms() {
 
   const [students, setStudents] = useState([]);
 
-  // getting localStudents (once)
-  // useEffect(() => {
-  //   getLocalStudents();
-  // }, []);
-  // useEffect(() => {
-  //   saveLocalStudents();
-  // }, [students]);
-  // ----------------------------------
-  // make a variable of your localstorage
-  // const newStudents = localStorage.getItem("students");
+  useEffect(() => {
+    const students = JSON.parse(localStorage.getItem("students"));
+    if (students) {
+      setStudents(students);
+    }
+  }, []);
 
-  // if (!newStudents) {
-  //   // this checks to see if it's null/falsy
-  //   return; // exit the function
-  // }
-
-  //you don't need to set the item to an empty array because your state is defaulted to []
-
-  // -----------------------------------
-  // Saving to local storage
-
-  // const saveLocalStudents = () => {
-  //   localStorage.setItem("students", students);
-  // };
-
-  // const getLocalStudents = () => {
-  //   if (localStorage.getItem("students") === null) {
-  //     localStorage.setItem("students", JSON.stringify([]));
-  //   } else {
-  //     let studentsLocal = JSON.parse(localStorage.getItem("students"));
-
-  //     console.log(studentsLocal);
-  //     setStudents(studentsLocal);
-  //   }
-  // };
+  useEffect(() => {
+    localStorage.setItem("students", JSON.stringify(students));
+  }, [students]);
 
   return (
     <>

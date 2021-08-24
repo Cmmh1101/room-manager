@@ -6,6 +6,7 @@ function Room2() {
   const [inputText, setInputText] = useState("");
 
   const [students, setStudents] = useState([]);
+
   return (
     <>
       <div className="room_box m-2">

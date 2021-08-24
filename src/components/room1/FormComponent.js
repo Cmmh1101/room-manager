@@ -12,7 +12,7 @@ const StudentForm = ({ inputText, setInputText, students, setStudents }) => {
     // condition to limit 2 max
     if (students.length === 2) {
       alert(
-        "there are two students in this room please wait and try in a few minutes"
+        "There are two students assigned to this room. Please wait and try in a few minutes"
       );
       e.preventDefault();
       setInputText("");
