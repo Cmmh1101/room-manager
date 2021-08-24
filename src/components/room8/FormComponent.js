@@ -8,9 +8,19 @@ const StudentForm = ({ inputText, setInputText, students, setStudents }) => {
     //
   };
   const submitStudentHandler = (e) => {
-    e.preventDefault();
-    setStudents([...students, { text: inputText, id: Math.random() * 1000 }]);
-    setInputText("");
+    // condition to limit 2 max
+    if (students.length === 2) {
+      alert(
+        "there are two students in this room please wait and try in a few minutes"
+      );
+      e.preventDefault();
+      setInputText("");
+      console.log("there are two students");
+    } else {
+      e.preventDefault();
+      setStudents([...students, { text: inputText, id: Math.random() * 1000 }]);
+      setInputText("");
+    }
   };
 
   return (
